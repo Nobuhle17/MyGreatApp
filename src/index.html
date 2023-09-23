@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="src/weather.css">
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Type City" aria-label="Search" autofocus="on"
+                autocomplete="off" id="city-input" class="formo-control shadow-sm">
+                <button class="btn btn-outline-success" type="submit">Search
+                </button>
+                <button class="btn btn-success w-100" id="current-location-button">
+                    Current
+                </button>
+                </form>
+                <br>
+                <br>
+                <h1 id="city">
+                    Mpumalanga
+                    <br>
+                    Dullstroom
+                
+                
+                    <div class="float-left">
+                        <span class="temperature" id="temperature">19</span><span class="units">
+                            <a href="#" id="celsius-link">°C</a> |
+                            <a href="#" id="fahrenheit-link">°F</a>
+                        </span>
+                    </div>
+                </h1>
+                div class="container">
+                <div class="row">
+                    <div class="col-6 col-sm-3">
+                        <strong> Tomorrow</strong>
+                        <br>
+                        ☀
+                        <br>
+                        Sunny
+                        <br>
+                        30°
+                    </div>
+                    <br>
+                    <div class="col-6 col-sm-3">
+                        <strong>Sunday</strong>
+                        <br>
+                        🌤
+                        <br>
+                        Partly Sunny
+                        <br>
+                        31°
+                
+                    </div>
+                    <!-- Force next columns to break to new line -->
+                    <div class="w-100"></div>
+                
+                    <div class="col-6 col-sm-3">
+                        <strong>
+                            Monday
+                        </strong>
+                        <br>
+                        🌤
+                        <br>
+                        Partly Sunny
+                        <br>
+                        33°
+                    </div>
+                    <br>
+                    <div class="col-6 col-sm-3">
+                        <strong>
+                            Tuesday
+                        </strong>
+                        <br>
+                        🌤
+                        <br>
+                        Partly Sunny
+                        <br>
+                        15°
+                
+                
+                    </div>
+                </div>
+                </div>
+                </div>
+                <script src="SCPLUSWEEK2/javas/app.js"></script>
+                </body>
+                
+                </html>
