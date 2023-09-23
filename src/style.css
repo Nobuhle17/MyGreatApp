@@ -1,0 +1,42 @@
+h1 {
+    text-align: left;
+    color: navy;
+}
+
+h2 {
+    text-align: left;
+    font-size: medium;
+}
+
+h3 {
+    text-align: left;
+}
+
+p {
+    text-align: left;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 15px;
+    display: inline-block
+}
+
+body {
+    background-color: skyblue;
+}
+
+.form-control {
+    width: 25%;
+    display: inline-block;
+    padding-bottom: 0;
+
+}
+
+#current-location-button {
+    width: 25%;
+    padding: 20px;
+    margin: 10px auto;
+    transition: 150ms ease-in-out;
+
+}
